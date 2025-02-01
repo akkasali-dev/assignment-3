@@ -29,6 +29,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'btn-primary': '#FFDC26',
               }
             }
           }
@@ -37,7 +38,46 @@
 </head>
 <body>
     <!-- header -->
-     <header></header>
+     <header class="font-sora">
+      <!-- navbar -->
+       <nav class="bg-[#FFF9F4]">
+        <div class="md:w-5/6 mx-auto navbar">
+          <div class="navbar-start gap-2">
+            <img src="./c1-assets/logo-header.png" alt="">
+            <a class="text-xl hidden md:block">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Find a pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden md:block">
+              <i class="fa-solid fa-bell"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <a class="btn border-[#FFDC26]">Login</a>
+              <a class="btn bg-btn-primary">Register</a>
+            </div>
+            <div class="block md:hidden">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+       </nav>
+       <!-- hero section -->
+       <div class="md:w-5/6 mx-auto my-24">
+         <div class="relative space-y-7 z-10 mx-2">
+            <h1 class="text-5xl font-adlam">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+            <p class="">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="btn bg-btn-primary">Find a pet</button>
+         </div>
+         <div class="absolute top-[450px] md:top-24">
+            <img class="" src="./c1-assets/cat-big.png" alt="">
+         </div>
+      </div>         
+    </header>
 
     <!-- main -->
     <main></main>
